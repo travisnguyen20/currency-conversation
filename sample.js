@@ -1,5 +1,5 @@
 const CurrencyConversation = require('./currency-conversation')
-const exchanges = require('./sample-data')
+const { exchanges } = require('./sample-data')
 
 var currencyConversation = new CurrencyConversation({
     popularCurrencies:['BTC', 'ETH'],
@@ -8,10 +8,3 @@ var currencyConversation = new CurrencyConversation({
 
 let res = currencyConversation.findConversationPath('BINANCE', 'ADA', 'BINANCE', 'USD')
 console.log(res)
-
-
-
-
-
-
-

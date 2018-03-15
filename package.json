@@ -1,0 +1,27 @@
+{
+  "name": "currency-conversation",
+  "version": "1.0.0",
+  "description": "Using dijkstra algorithm to find shortest way for currency conversation",
+  "main": "currency-conversation.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/travisnguyen20/currency-conversation.git"
+  },
+  "keywords": [
+    "dijkstra",
+    "currency",
+    "conversation"
+  ],
+  "author": "Travis Nguyen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/travisnguyen20/currency-conversation/issues"
+  },
+  "homepage": "https://github.com/travisnguyen20/currency-conversation#readme",
+  "dependencies": {
+    "node-dijkstra": "^2.5.0"
+  }
+}

@@ -3,8 +3,8 @@ const Graph = require('node-dijkstra')
 module.exports = class CurrencyConversation {
     constructor (options, exchanges) {
         this._options = options;
-        this._route = this._buildMap(this._exchanges)
         this._exchanges = exchanges;
+        this._route = this._buildMap(this._exchanges)
     }
 
     findConversationPath(sourceExchange, sourceCurrency, destExchange, destCurrency ) {
